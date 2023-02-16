@@ -89,11 +89,11 @@ classdef gps_sensor < handle
                     self.y_gps_course = atan2((Va*sin(psi)+we), (Va*cos(psi)+wn)) + SENSOR.gps_course_sigma*randn(1);
                     
 
-                    self.y_gps_n = pn;
-                    self.y_gps_e = pe;
-                    self.y_gps_h = -pd;
-                    self.y_gps_Vg     = sqrt((Va*cos(psi)+wn)^2 + (Va*sin(psi)+we)^2);
-                    self.y_gps_course = atan2((Va*sin(psi)+we), (Va*cos(psi)+wn));
+%                     self.y_gps_n = pn;
+%                     self.y_gps_e = pe;
+%                     self.y_gps_h = -pd;
+%                     self.y_gps_Vg     = sqrt((Va*cos(psi)+wn)^2 + (Va*sin(psi)+we)^2);
+%                     self.y_gps_course = atan2((Va*sin(psi)+we), (Va*cos(psi)+wn));
 
                     self.time_last_gps = self.time;
                 end

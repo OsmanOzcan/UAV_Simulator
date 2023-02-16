@@ -124,6 +124,6 @@ a_V2 = numAHT(2);
    
 AP.airspeed_throttle_kp = (2*zeta_v*wn_v - a_V1)/((a_V2));
 AP.airspeed_throttle_ki = wn_v^2/(a_V2);
-AP.airspeed_throttle_kd = 0;
+AP.airspeed_throttle_kd = 1;
 
 

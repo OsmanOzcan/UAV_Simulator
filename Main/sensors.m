@@ -43,6 +43,7 @@ function y = sensors(uu, MAV, SENSOR)
     y_accel_y = F_y/MAV.mass - MAV.gravity*cos(theta)*sin(phi) + SENSOR.accel_sigma*randn(1);
     y_accel_z = F_z/MAV.mass - MAV.gravity*cos(theta)*cos(phi) + SENSOR.accel_sigma*randn(1);
 
+
     y_static_pres = MAV.rho*MAV.gravity*(-pd) + SENSOR.static_pres_sigma*randn(1);
     y_diff_pres =  MAV.rho*Va^2/2 + SENSOR.diff_pres_sigma*randn(1);
 
