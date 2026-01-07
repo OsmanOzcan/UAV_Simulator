@@ -46,7 +46,9 @@ Gerçekçi sensör verileri üretmek için gürültü (Gaussian noise) ve bias m
 ### MATLAB Kontrol Arayüzü (GUI)
 Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana bölüme ayrılmıştır:
 
-<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/gui_numbered_screenshot.png" width="800">
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/Resim1.png" width="800">
+
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/Resim2.png" width="150"> <img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/Resim3.png" width="500">
 
 1.  **Manuel Kontrol Paneli:** Kontrol girdilerinin (elevator, aileron, rudder açısal deformasyonları ve % itki) manuel olarak girildiği bölümdür.
 2.  **Otopilot Paneli:** Otopilotun aktif edildiği ve referans değerlerin (hedef irtifa, hava hızı, course açısı) girildiği bölümdür. Sistem, bu referanslara ulaşmak için gerekli kontrol yüzeyi hareketlerini otomatik hesaplar.
@@ -58,11 +60,10 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
     * *Hedef Referans Değeri*
 6.  **3D Yörünge:** İHA'nın yerel koordinat düzleminde (NED frame) 3 eksendeki hareket izini ve yörüngesini gösteren grafik.
 
-### Unity 3D Görselleştirme
-*MATLAB'dan gelen verilerle beslenen, kanard yapılı İHA'nın 3 boyutlu görselleştirmesi.*
-<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/unity_screenshot.png" width="800">
-
 ### Performans Grafikleri (Örnekler)
-*Yörünge takibi ve İrtifa sabitleme (Altitude Hold) performansı.*
-<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/performance_graphs.png" width="800">
+*Yörünge takibi performansı.*
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/Resim4.png" width="800">
 
+### Unity 3D Görselleştirme
+*MATLAB'dan gelen verilerle beslenen İHA'nın 3 boyutlu görselleştirmesi.*
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/Resim5.png" width="800">
