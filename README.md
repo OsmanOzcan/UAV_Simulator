@@ -62,8 +62,8 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
 
 ### Performans Grafikleri (Örnekler)
 *Yörünge takibi performansı.*
-<img src="assets/Resim4.png" width="800">
+<img src="assets/Resim4.png" width="600">
 
 ### Unity 3D Görselleştirme
 *MATLAB'dan gelen verilerle beslenen İHA'nın 3 boyutlu görselleştirmesi.*
-<img src="assets/Resim5.png" width="800">
+<img src="assets/Resim5.png" width="600">
