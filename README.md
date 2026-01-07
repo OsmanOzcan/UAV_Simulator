@@ -41,20 +41,28 @@ Gerçekçi sensör verileri üretmek için gürültü (Gaussian noise) ve bias m
     * **UDP Haberleşmesi:** Unity'den Joystick verileri (Manuel kontrol) MATLAB'a gönderilir; MATLAB'dan hesaplanan konum/oryantasyon verileri Unity'ye gönderilir.
 
 ---
-
 ## 📸 Ekran Görüntüleri
 
 ### MATLAB Kontrol Arayüzü (GUI)
-*Simülasyonun kontrol edildiği, otopilot modlarının seçildiği ve gerçek zamanlı verilerin (İrtifa, Hız, Konum Hataları) analiz edildiği panel.*
-<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/placeholder_image_gui.png" width="800">
-*(Buraya Portfolyo Sayfa 13'teki GUI ekran görüntüsünü ekleyin)*
+Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana bölüme ayrılmıştır:
 
-### Unity 3D Uçuş Ortamı
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/gui_numbered_screenshot.png" width="800">
+
+1.  **Manuel Kontrol Paneli:** Kontrol girdilerinin (elevator, aileron, rudder açısal deformasyonları ve % itki) manuel olarak girildiği bölümdür.
+2.  **Otopilot Paneli:** Otopilotun aktif edildiği ve referans değerlerin (hedef irtifa, hava hızı, course açısı) girildiği bölümdür. Sistem, bu referanslara ulaşmak için gerekli kontrol yüzeyi hareketlerini otomatik hesaplar.
+3.  **Uçuş Göstergeleri:** Uçuş verilerinin (hız, irtifa, yapay ufuk vb.) anlık takibi için kullanılan analog göstergeler.
+4.  **Anlık Oryantasyon:** İHA'nın koordinat düzlemindeki anlık duruşunu (attitude) gösteren 3D görselleştirme.
+5.  **Veri Grafikleri:** Simülasyon boyunca tüm verilerin zaman ekseninde çizildiği analiz bölümü. Her veri türü için üç farklı sinyal gösterilir:
+    * *Gerçek Değer*
+    * *Filtrelenmiş Sensör Değeri*
+    * *Hedef Referans Değeri*
+6.  **3D Yörünge:** İHA'nın yerel koordinat düzleminde (NED frame) 3 eksendeki hareket izini ve yörüngesini gösteren grafik.
+
+### Unity 3D Görselleştirme
 *MATLAB'dan gelen verilerle beslenen, kanard yapılı İHA'nın 3 boyutlu görselleştirmesi.*
-<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/placeholder_image_unity.png" width="800">
-*(Buraya Portfolyo Sayfa 17'deki Unity ekran görüntüsünü ekleyin)*
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/unity_screenshot.png" width="800">
 
-### Durum Tahmini ve Yörünge Analizi
-*3D Yörünge takibi ve İrtifa sabitleme (Altitude Hold) performansı.*
-<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/placeholder_image_graphs.png" width="800">
+### Performans Grafikleri (Örnekler)
+*Yörünge takibi ve İrtifa sabitleme (Altitude Hold) performansı.*
+<img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/performance_graphs.png" width="800">
 
