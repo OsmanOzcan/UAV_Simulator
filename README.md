@@ -48,7 +48,10 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
 
 <img src="assets/Resim1.png" width="800">
 
-<img src="assets/Resim2.png" height="400">             <img src="assets/Resim3.png" height="400">
+<p align="center">
+  <img src="assets/Resim2.png" height="400" />
+  &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/Resim3.png" height="400" />
+</p>
 
 1.  **Manuel Kontrol Paneli:** Kontrol girdilerinin (elevator, aileron, rudder açısal deformasyonları ve % itki) manuel olarak girildiği bölümdür.
 2.  **Otopilot Paneli:** Otopilotun aktif edildiği ve referans değerlerin (hedef irtifa, hava hızı, course açısı) girildiği bölümdür. Sistem, bu referanslara ulaşmak için gerekli kontrol yüzeyi hareketlerini otomatik hesaplar.
