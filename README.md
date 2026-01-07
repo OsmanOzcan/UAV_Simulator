@@ -8,7 +8,7 @@ Bu proje, **Randal W. Beard ve Timothy W. McLain** tarafından yazılan *"Small 
 
 Kitabın 12. bölümüne kadar olan tüm teorik altyapı (dinamik modelleme, sensörler, otopilot, durum tahmini ve güdüm) **MATLAB** ortamında kodlanmış, uçuş görselleştirmesi ve manuel kontrol arayüzü ise **Unity 3D** oyun motoru ile çift yönlü **UDP haberleşmesi** üzerinden sağlanmıştır.
 
-## 🚀 Özellikler
+## Özellikler
 
 Proje, temel uçuş dinamiklerinden otonom görev icrasına kadar aşağıdaki alt sistemleri içerir:
 
@@ -41,7 +41,7 @@ Gerçekçi sensör verileri üretmek için gürültü (Gaussian noise) ve bias m
     * **UDP Haberleşmesi:** Unity'den Joystick verileri (Manuel kontrol) MATLAB'a gönderilir; MATLAB'dan hesaplanan konum/oryantasyon verileri Unity'ye gönderilir.
 
 ---
-## 📸 Ekran Görüntüleri
+## Ekran Görüntüleri
 
 ### MATLAB Kontrol Arayüzü (GUI)
 Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana bölüme ayrılmıştır:
