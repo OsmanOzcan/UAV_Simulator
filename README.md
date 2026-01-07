@@ -48,7 +48,7 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
 
 <img src="assets/Resim1.png" width="800">
 
-<p align="center">
+<p>
   <img src="assets/Resim2.png" height="400" />
   &nbsp; &nbsp; &nbsp; &nbsp; <img src="assets/Resim3.png" height="400" />
 </p>
