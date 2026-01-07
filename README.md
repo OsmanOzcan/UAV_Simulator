@@ -58,9 +58,9 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
 3.  **Uçuş Göstergeleri:** Uçuş verilerinin (hız, irtifa, yapay ufuk vb.) anlık takibi için kullanılan analog göstergeler.
 4.  **Anlık Oryantasyon:** İHA'nın koordinat düzlemindeki anlık duruşunu (attitude) gösteren 3D görselleştirme.
 5.  **Veri Grafikleri:** Simülasyon boyunca tüm verilerin zaman ekseninde çizildiği analiz bölümü. Her veri türü için üç farklı sinyal gösterilir:
-    * *Gerçek Değer*
-    * *Filtrelenmiş Sensör Değeri*
-    * *Hedef Referans Değeri*
+    * *Gerçek Değer (mavi)*
+    * *Sensör Değeri (yeşil)*
+    * *Hedef Referans Değeri (kırmızı)*
 6.  **3D Yörünge:** İHA'nın yerel koordinat düzleminde (NED frame) 3 eksendeki hareket izini ve yörüngesini gösteren grafik.
 
 ### Performans Grafikleri (Örnekler)
