@@ -48,7 +48,7 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
 
 <img src="assets/Resim1.png" width="800">
 
-<img src="assets/Resim2.png" height="500"> <img src="assets/Resim3.png" height="500">
+<img src="assets/Resim2.png" height="400">             <img src="assets/Resim3.png" height="400">
 
 1.  **Manuel Kontrol Paneli:** Kontrol girdilerinin (elevator, aileron, rudder açısal deformasyonları ve % itki) manuel olarak girildiği bölümdür.
 2.  **Otopilot Paneli:** Otopilotun aktif edildiği ve referans değerlerin (hedef irtifa, hava hızı, course açısı) girildiği bölümdür. Sistem, bu referanslara ulaşmak için gerekli kontrol yüzeyi hareketlerini otomatik hesaplar.
@@ -67,4 +67,5 @@ Kullanıcı arayüzü, simülasyonun tam kontrolünü sağlamak için 6 ana böl
 
 ### Unity 3D Görselleştirme
 *MATLAB'dan gelen verilerle beslenen İHA'nın 3 boyutlu görselleştirmesi.*
+
 <img src="assets/Resim5.png" width="600">
