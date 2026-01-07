@@ -58,38 +58,3 @@ Gerçekçi sensör verileri üretmek için gürültü (Gaussian noise) ve bias m
 *3D Yörünge takibi ve İrtifa sabitleme (Altitude Hold) performansı.*
 <img src="https://github.com/OsmanOzcan/UAV_Simulator/assets/placeholder_image_graphs.png" width="800">
 
----
-
-## 🛠️ Kurulum ve Kullanım
-
-Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin.
-
-### Gereksinimler
-* **MATLAB** (R2020b veya üzeri önerilir)
-    * *Control System Toolbox*
-* **Unity Hub & Editor** (2021.3 LTS veya uyumlu bir sürüm)
-
-### Çalıştırma Adımları
-
-1.  **Depoyu Klonlayın:**
-    ```bash
-    git clone [https://github.com/OsmanOzcan/UAV_Simulator.git](https://github.com/OsmanOzcan/UAV_Simulator.git)
-    ```
-
-2.  **MATLAB Tarafı:**
-    * MATLAB'ı açın ve proje klasörüne gidin.
-    * `App` klasörü altındaki **App Designer** dosyasını (`.mlapp`) veya ana çalıştırıcı scripti (`main.m`) çalıştırın.
-    * GUI açıldığında simülasyon parametreleri varsayılan olarak yüklenecektir.
-
-3.  **Unity Tarafı:**
-    * Unity Hub üzerinden proje klasöründeki `Unity_Environment` (veya ilgili klasör ismi) projesini açın.
-    * `SampleScene` sahnesini açın ve **Play** tuşuna basın.
-
-4.  **Bağlantı:**
-    * Unity ve MATLAB aynı ağ üzerinde (veya localhost) çalışmalıdır.
-    * MATLAB arayüzünden "Start" butonuna bastığınızda UDP soketleri açılacak ve veri akışı başlayacaktır.
-    * Joystick veya klavye girdileri Unity üzerinden okunup MATLAB'daki fizik motoruna iletilecektir.
-
----
-
-## 📂 Proje Yapısı
