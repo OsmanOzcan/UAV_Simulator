@@ -32,8 +32,6 @@ Gerçekçi sensör verileri üretmek için gürültü (Gaussian noise) ve bias m
 
 ### 4. Güdüm (Guidance) ve Seyrüsefer
 * Belirlenen koordinatlara (Waypoints) sırasıyla gitmeyi sağlayan güdüm algoritması.
-* Bu algoritma hem **MATLAB** hem de **C** dilinde implemente edilmiştir.
-    * *(Not: C tabanlı güdüm algoritması, Baykar staj döneminde JSBSim modeline entegre edilerek F-16 üzerinde test edilmiştir.)*
 
 ### 5. Görselleştirme ve Arayüz (HIL/SIL Konsepti)
 * **MATLAB App Designer:** Uçuş parametrelerinin (PID katsayıları, rüzgar şiddeti vb.) ayarlandığı ve anlık verilerin (grafikler, 3D yörünge) izlendiği GUI.
